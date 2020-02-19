@@ -10,6 +10,7 @@ public class Student {
 	String name;
 	String Address;
 	String subject;
+	public Student() {}
 	
 	public String toString() {
 		return "Student [ID=" + ID + ", name=" + name + ", Address=" + Address + ", subject=" + subject + "]";
